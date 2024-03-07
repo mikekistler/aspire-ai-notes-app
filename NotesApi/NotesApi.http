@@ -1,6 +1,21 @@
 @NotesApi_HostAddress = http://localhost:5255
 
-GET {{NotesApi_HostAddress}}/weatherforecast/
+GET {{NotesApi_HostAddress}}/notes
 Accept: application/json
 
 ###
+
+GET {{NotesApi_HostAddress}}/notes/1
+Accept: application/json
+
+###
+
+PUT {{NotesApi_HostAddress}}/notes/4
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 4,
+  "title": "I added this Note",
+  "content": "Note Content"
+}
