@@ -12,11 +12,16 @@
     else {
         foreach (var note in notes)
         {
-            <NoteCard @key="note.Id"/>
+            <NoteCard Note="note" @key="note.Id"/>
         }
     }
 </div>
 
 @code {
-    List<Note> notes = new();
+    List<Note> notes = new()
+    {
+        new Note(0, "First Note", "This is the first note"),
+        new Note(1, "Second Note", "This is the second note"),
+        new Note(2, "Third Note", "This is the third note"),
+    };
 }
