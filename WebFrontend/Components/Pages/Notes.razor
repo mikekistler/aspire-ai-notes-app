@@ -2,8 +2,21 @@
 
 <PageTitle>Notes</PageTitle>
 
-<p>Here are your notes</p>
+<div>
+    @if (notes.Count() == 0)
+    {
+        <div class="col-span-full text-center">
+            You don't have any notes yet.
+        </div>
+    }
+    else {
+        foreach (var note in notes)
+        {
+            <NoteCard @key="note.Id"/>
+        }
+    }
+</div>
 
 @code {
-
+    List<Note> notes = new();
 }
