@@ -1,20 +1,23 @@
-﻿
+﻿﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppHost", "AppHost\AppHost.csproj", "{EC5884BF-1C8D-4C7E-B4A1-0852536961BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost", "AppHost\AppHost.csproj", "{EC5884BF-1C8D-4C7E-B4A1-0852536961BD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceDefaults", "ServiceDefaults\ServiceDefaults.csproj", "{905D0380-260F-4DCE-BED6-35CC5527AD20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceDefaults", "ServiceDefaults\ServiceDefaults.csproj", "{905D0380-260F-4DCE-BED6-35CC5527AD20}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesApi", "NotesApi\NotesApi.csproj", "{87F45BD8-6F8C-46AC-AA6E-701F5237DF79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApi", "NotesApi\NotesApi.csproj", "{87F45BD8-6F8C-46AC-AA6E-701F5237DF79}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebFrontend", "WebFrontend\WebFrontend.csproj", "{DD70C6DC-FABD-4264-A84E-B62CB1DFB230}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFrontend", "WebFrontend\WebFrontend.csproj", "{DD70C6DC-FABD-4264-A84E-B62CB1DFB230}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EC5884BF-1C8D-4C7E-B4A1-0852536961BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -33,8 +36,5 @@ Global
 		{DD70C6DC-FABD-4264-A84E-B62CB1DFB230}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD70C6DC-FABD-4264-A84E-B62CB1DFB230}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD70C6DC-FABD-4264-A84E-B62CB1DFB230}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
