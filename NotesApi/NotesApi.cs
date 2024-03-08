@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http.HttpResults;
 
 internal static class NotesApi
 {
-    private static Dictionary<int, Note> notes = new Note[]
+    private static readonly Dictionary<int, Note> notes = new Note[]
     {
         new Note { Id = 1, Title = "First Note", Content = "This is the first note"},
         new Note { Id = 2, Title = "Second Note", Content = "This is the second note"},
